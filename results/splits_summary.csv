@@ -1,0 +1,5 @@
+split,n_images,n_groups,n_weed,n_crop,n_images_with_crop
+greenhouse_train,168,14,982,279,69
+greenhouse_val,36,3,209,61,13
+greenhouse_test,37,4,210,64,14
+field_test,908,,5973,7,7

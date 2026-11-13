@@ -1,0 +1,31 @@
+# Data and training outputs (too large / reproducible)
+data/
+runs/
+results/reproduce/
+results/reproduce_sample/
+
+# Model weights (downloaded pretrained or trained)
+*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Report: LaTeX source stays local; only the final submitted PDF is published
+report/*
+!report/report.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+report_overleaf.zip
+
+# Local-only notes
+CLAUDE.md
+READER_GUIDE.md
+READER_GUIDE.pdf
